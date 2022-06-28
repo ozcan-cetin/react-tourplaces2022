@@ -4,7 +4,7 @@
 
 const Card = (data) => {
     console.log(data); //todo datadan ne geldiğiini buradan görebilirsin.
-    const {id, title, image, desc} = data;
+    const {title, image, desc} = data;
     return(
         <div className="cards">
             <div className="title">
